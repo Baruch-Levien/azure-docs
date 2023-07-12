@@ -23,7 +23,7 @@ This guide provides the background for how Defender for Cloud fits into your org
 
 In the next section, you'll learn how to plan for each one of those areas and apply those recommendations based on your requirements.
 
-> [!NOTE]
+> [NOTE!]
 > Read [Defender for Cloud common questions](faq-general.yml) for a list of common questions that can also be useful during the designing and planning phase.
 
 ## Security roles and access controls
@@ -68,11 +68,11 @@ Defender for Cloud enables these individuals to meet these various responsibilit
 
 - Work with Cloud Workload Owner to apply remediation.
 
-Defender for Cloud uses [Azure role-based access control (Azure Role-based access control)](../role-based-access-control/role-assignments-portal.md), which provides [built-in roles](../role-based-access-control/built-in-roles.md) that can be assigned to users, groups, and services in Azure. When a user opens Defender for Cloud, they only see information related to resources they have access to. Which means the user is assigned the role of Owner, Contributor, or Reader to the subscription or resource group that a resource belongs to. In addition to these roles, there are two roles specific to Defender for Cloud:
+Defender for Cloud uses [Azure role-based access control (Azure Role-based access control)](../role-based-access-control/role-assignments-portal.md), which provides [built-in roles](../role-based-access-control/built-in-roles.md) that can be assigned to users, groups, and services in Azure. When a user opens Defender for Cloud, they only see information related to resources they have access to. This means the user is assigned the role of Owner, Contributor, or Reader to the subscription or resource group that a resource belongs to. In addition to these roles, there are two roles specific to Defender for Cloud:
 
-- **Security reader**: a user that belongs to this role is able to view only Defender for Cloud configurations, which include recommendations, alerts, policy, and health, but it won't be able to make changes.
+- **Security reader**: a user that belongs to this role is able to view only Defender for Cloud configurations. This includes recommendations, alerts, policy, and health, but they won't be able to make changes.
 
-- **Security admin**: same as security reader but it can also update the security policy, dismiss recommendations and alerts.
+- **Security admin**: same as a security reader but it can also update the security policy, dismiss recommendations and alerts.
 
 The personas explained in the previous diagram need these Azure Role-based access control roles:
 
@@ -108,14 +108,14 @@ Some other important information to consider:
 
 - Only subscription and resource group Owners and Contributors can apply security recommendations for a resource.
 
-When planning access control using Azure Role-based access control for Defender for Cloud, make sure you understand who in your organization needs access to Defender for Cloud the tasks they'll perform. Then you can configure Azure Role-based access control properly.
+When planning access control using Azure Role-based access control for Defender for Cloud, make sure you understand who in your organization needs access to Defender for Cloud tasks they'll perform. Then you can configure Azure Role-based access control properly.
 
-> [!NOTE]
+> [NOTE!]
 > We recommend that you assign the least permissive role needed for users to complete their tasks. For example, users who only need to view information about the security state of resources but not take action, such as applying recommendations or editing policies, should be assigned the Reader role.
 
 ## Security policies and recommendations
 
-A security policy defines the desired configuration of your workloads and helps ensure compliance with company or regulatory security requirements. In Defender for Cloud, you can define policies for your Azure subscriptions, which can be tailored to the type of workload or the sensitivity of data.
+A security policy defines the desired configuration of your workloads and helps ensure compliance with company or regulatory security requirements. In Defender for Cloud, you can define policies for your Azure subscriptions. This can be tailored to the type of workload or the sensitivity of data.
 
 Defenders for Cloud policies contain the following components:
 
