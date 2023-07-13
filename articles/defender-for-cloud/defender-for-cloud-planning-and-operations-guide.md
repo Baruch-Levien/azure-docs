@@ -23,7 +23,7 @@ This guide provides the background for how Defender for Cloud fits into your org
 
 In the next section, you'll learn how to plan for each one of those areas and apply those recommendations based on your requirements.
 
-> [!NOTE]
+> [NOTE!]
 > Read [Defender for Cloud common questions](faq-general.yml) for a list of common questions that can also be useful during the designing and planning phase.
 
 ## Security roles and access controls
@@ -39,6 +39,8 @@ Defender for Cloud enables these individuals to meet these various responsibilit
 - Manage a cloud workload and its related resources.
 
 - Responsible for implementing and maintaining protections in accordance with company security policy.
+
+- In small organizations, also defines policy and monitor alearts.
 
 **Ellen (CISO/CIO)**
 
